@@ -8,11 +8,12 @@ namespace HashTables
         static void Main()
         {
             hashVSarray hs = new hashVSarray();
-
+            hs.fileMissing();
             hs.StackNqueue();
-            //hs.ArrayNmaps();
-            //hs.getFile();
+            hs.ArrayNmaps();
+      
             Console.ReadKey();
+            
         }
     }
 }
