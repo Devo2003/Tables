@@ -9,8 +9,11 @@ namespace HashTables
         {
             hashVSarray hs = new hashVSarray();
             hs.fileMissing();
-            hs.StackNqueue();
-            hs.ArrayNmaps();
+            hs.ArrayExample();
+            hs.MapsExample();
+            hs.StackExample();
+            hs.QueueExample();
+            
       
             Console.ReadKey();
             
